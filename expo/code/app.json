@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Beverage-Beckett",
+    "slug": "Beverage-Beckett",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F0E4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vibhuti.BeverageBeckett"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#F6F0E4"
+      },
+      "package": "com.vibhuti.BeverageBeckett"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba6f4c1f-05ad-4c14-ae26-cab555148a46"
+      }
+    }
+  }
+}
